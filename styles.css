@@ -39,6 +39,7 @@ html{
 }
 
 .img{
+    display: grid;
     height: 450px;
     width:330px;
     margin:auto;
