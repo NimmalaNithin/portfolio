@@ -41,7 +41,7 @@ html{
     }
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
     .crd{
         width:350px;
     }
@@ -56,7 +56,7 @@ html{
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.425), 5px 6px 6px rgba(0, 0, 0, 0.377);
 }
-@media(max-width:400px){
+@media(max-width:450px){
     .img{
         height:375px;
     }
@@ -89,20 +89,20 @@ html{
     padding-bottom: 70px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    justify-self: center;
-    width:700px;
+    width:650px;
     grid-template-areas: 
     "abt skill";
 }
+
 .abt{
     grid-area: abt;
-    margin-right: 30px;
-    padding-top: 0px;
+    max-width:400px;
 }
 
-.abt h2{
-    text-align: center;
-    
+@media(max-width:450px){
+    .abt-cont{
+        max-width:330px;
+    }
 }
 
 
@@ -289,7 +289,7 @@ button{
     height: 36px;
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
     #txt{
         width:100%;
     }
