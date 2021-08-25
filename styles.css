@@ -41,6 +41,12 @@ html{
     }
 }
 
+@media(max-width:370px){
+    .crd{
+        width:350px;
+    }
+}
+
 .img{
     height: 450px;
     width:80%;
@@ -50,7 +56,7 @@ html{
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.425), 5px 6px 6px rgba(0, 0, 0, 0.377);
 }
-@media(max-width:360px){
+@media(max-width:370px){
     .img{
         height:375px;
     }
@@ -283,8 +289,8 @@ button{
     height: 36px;
 }
 
-@media(max-width){
+@media(max-width:370px){
     #txt{
-        width:300px;
+        width:100%;
     }
 }
