@@ -99,8 +99,9 @@ html{
     max-width:400px;
 }
 
-@media(max-width:450px){
+@media(max-width:500px){
     .abt-cont{
+        margin-left: 20px;
         max-width:330px;
     }
 }
