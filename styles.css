@@ -19,7 +19,14 @@ html{
         margin-right: 20px;
     }
 }
-
+@media(max-width:500px){
+    #logo{
+        margin-left: 0px;
+    }
+    #btnCollapse{
+        margin-right: 0px;
+    }
+}
 
 
 .crd{
