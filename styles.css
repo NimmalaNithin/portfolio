@@ -42,7 +42,7 @@ html{
     display: grid;
     height: 450px;
     width:330px;
-    margin:auto;
+    justify-self: center;
     margin-top: 30px;
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.425), 5px 6px 6px rgba(0, 0, 0, 0.377);
