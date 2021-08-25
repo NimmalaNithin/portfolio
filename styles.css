@@ -26,9 +26,10 @@ html{
 }
 
 .crd{
+    position: relative;
     width: 700px;
-    margin: auto;
     top:100px;
+    margin: auto;
     border-radius: 20px;
     background-color:hsla(0, 0%, 100%, 0.952);
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.281), 5px 6px 8px rgba(0, 0, 0, 0.253);
@@ -42,16 +43,16 @@ html{
 
 @media(max-width:500px){
     .crd{
-        width:99%;
+        top:80px;
+        width:90%;
     }
 }
 
 .img{
     height: 450px;
     width:80%;
-    max-width: 350px;
     margin:auto;
-    margin-top: 20px;
+    
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.425), 5px 6px 6px rgba(0, 0, 0, 0.377);
 }
@@ -100,7 +101,7 @@ html{
 
 @media(max-width:500px){
     .abt-cont{
-        margin-left: 20px;
+        margin-left: 10px;
         max-width:330px;
     }
 }
