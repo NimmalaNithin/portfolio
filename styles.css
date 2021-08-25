@@ -9,12 +9,7 @@ html{
     font-size: 1.8em;
     color: rgb(255, 255, 255);
 }
-#btnCollapse{
-    margin-right: 50px;
-}
-.navigation{
-    margin-right: 50px;
-}
+
 
 @media(max-width:1024px){
     #logo{
@@ -33,6 +28,7 @@ html{
     border-radius: 20px;
     background-color:hsla(0, 0%, 100%, 0.952);
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.281), 5px 6px 8px rgba(0, 0, 0, 0.253);
+    display: grid;
 }
 
 @media(max-width:770px){
@@ -52,7 +48,7 @@ html{
     height: 450px;
     width:80%;
     margin:auto;
-    
+    margin-top: 30px;
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.425), 5px 6px 6px rgba(0, 0, 0, 0.377);
 }
@@ -73,6 +69,7 @@ html{
 }
 
 .navi{
+    width: 100%;
     background-color: black;
 }
 #link{
