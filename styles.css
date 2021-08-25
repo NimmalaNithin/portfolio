@@ -13,12 +13,14 @@ html{
 
 @media(max-width:1024px){
     #logo{
-        margin-left: 15px;
+        margin-left: 20px;
     }
     #btnCollapse{
         margin-right: 20px;
     }
 }
+
+
 
 .crd{
     position: relative;
