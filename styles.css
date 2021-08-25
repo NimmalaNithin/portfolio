@@ -39,10 +39,10 @@ html{
 }
 
 .img{
-    display: grid;
+    position: relative;
     height: 450px;
     width:330px;
-    justify-self: center;
+    margin: auto;
     margin-top: 30px;
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.425), 5px 6px 6px rgba(0, 0, 0, 0.377);
