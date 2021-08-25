@@ -50,6 +50,11 @@ html{
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.425), 5px 6px 6px rgba(0, 0, 0, 0.377);
 }
+@media(max-width:360px){
+    img{
+        height:375px;
+    }
+}
 
 .main-body{
     margin:auto;
@@ -86,8 +91,15 @@ html{
 .abt{
     grid-area: abt;
     margin-right: 30px;
-    width:400px;
+    padding-top: 0px;
 }
+
+.abt h2{
+    text-align: center;
+    
+}
+
+
 .skill{
     grid-area: skill;
 }
@@ -99,7 +111,7 @@ html{
         "skill";
     }
     .abt{
-        width:350px;
+        max-width:330px;
         margin: auto;
     }
     .skill{
@@ -269,4 +281,10 @@ button{
     margin: 30px 10px 30px 10px;
     width: 36px;
     height: 36px;
+}
+
+@media(max-width){
+    .txt{
+        width:300px;
+    }
 }
