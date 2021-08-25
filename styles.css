@@ -3,30 +3,12 @@ html{
 }
 
 #logo{
-    margin-left: 100px;
     text-shadow: 2px 2px 5px rgb(177, 177, 177), 2px 2px 5px rgb(177, 177, 177);
     font-weight: bold;
     font-size: 1.8em;
     color: rgb(255, 255, 255);
 }
 
-
-@media(max-width:1024px){
-    #logo{
-        margin-left: 20px;
-    }
-    #btnCollapse{
-        margin-right: 20px;
-    }
-}
-@media(max-width:500px){
-    #logo{
-        margin-left: 0px;
-    }
-    #btnCollapse{
-        margin-right: 0px;
-    }
-}
 
 
 .crd{
