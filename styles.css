@@ -42,8 +42,7 @@ html{
 
 @media(max-width:500px){
     .crd{
-        margin: auto;
-        width:350px;
+        width:99%;
     }
 }
 
