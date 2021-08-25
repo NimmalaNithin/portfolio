@@ -9,7 +9,9 @@ html{
     color: rgb(255, 255, 255);
 }
 
-
+.navbar{
+    width:100%;
+}
 
 .crd{
     position: relative;
@@ -46,7 +48,7 @@ html{
 @media(max-width:500px){
     .img{
         height:375px;
-        width:300px;
+        width:270px;
     }
 }
 
