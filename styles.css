@@ -41,9 +41,10 @@ html{
     }
 }
 
-@media(max-width:450px){
+@media(max-width:500px){
     .crd{
-        width:99%;
+        margin: auto;
+        width:350px;
     }
 }
 
@@ -56,7 +57,7 @@ html{
     border-radius: 10px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.425), 5px 6px 6px rgba(0, 0, 0, 0.377);
 }
-@media(max-width:450px){
+@media(max-width:500px){
     .img{
         height:375px;
     }
