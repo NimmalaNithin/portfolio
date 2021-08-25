@@ -9,8 +9,9 @@ html{
     color: rgb(255, 255, 255);
 }
 
-.navbar{
-    width:100%;
+.nav-btn{
+    position: relative;
+    right:20px;
 }
 
 .crd{
