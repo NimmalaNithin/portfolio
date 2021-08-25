@@ -46,7 +46,7 @@ html{
 
 .img{
     height: 450px;
-    width:80%;
+    width:330px;
     margin:auto;
     margin-top: 30px;
     border-radius: 10px;
@@ -55,6 +55,7 @@ html{
 @media(max-width:500px){
     .img{
         height:375px;
+        width:300px;
     }
 }
 
@@ -287,7 +288,7 @@ button{
     height: 36px;
 }
 
-@media(max-width:450px){
+@media(max-width:500px){
     #txt{
         width:100%;
     }
