@@ -35,6 +35,7 @@ html{
 }
 
 .img{
+    padding: 0%;
     position: relative;
     height: 450px;
     width:330px;
@@ -46,7 +47,7 @@ html{
 @media(max-width:500px){
     .img{
         height:375px;
-        width:270px;
+        width:75%;
     }
 }
 
