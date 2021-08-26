@@ -62,6 +62,11 @@ body{
     border-radius: 10px;
     background-color: burlywood;
 }
+@media(max-width:500px){
+    .my-pic{
+        width:90%;
+    }
+}
 
 
 .main-body{
