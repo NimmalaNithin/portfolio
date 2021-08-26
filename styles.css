@@ -50,7 +50,7 @@ body{
 @media(max-width:500px){
     .crd{
         top:80px;
-        width:90%;
+        width:95%;
     }
 }
 
@@ -63,17 +63,12 @@ body{
     border-radius: 10px;
     background-color: rgb(37, 23, 3);
 }
-@media(max-width:500px){
-    .my-pic{
-        margin:15%;
-        height: 400px;
-    }
-}
 
 
 .main-body{
     grid-area: txt;
     margin:auto;
+    margin-top: 0px;
     width: 340px;
     max-width: 350px;
 }
