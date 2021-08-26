@@ -60,7 +60,7 @@ body{
     height: 450px;
     width:300px;
     border-radius: 10px;
-    background-color: burlywood;
+    background-color: rgb(37, 23, 3);
 }
 @media(max-width:500px){
     .my-pic{
