@@ -56,10 +56,14 @@ body{
 
 .my-pic{
     grid-area: img;
-    margin: auto;
     padding: 0px;
-    height: 450px;
-    width:300px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width:50%;
+
     border-radius: 10px;
     background-color: rgb(37, 23, 3);
 }
