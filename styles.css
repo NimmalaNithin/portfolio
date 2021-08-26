@@ -55,10 +55,9 @@ body{
 }
 
 .my-pic{
-    margin: 0px;
-    padding: 0px;
     grid-area: img;
-    justify-self: center;
+    margin: auto;
+    padding: 0px;
     height: 450px;
     width:300px;
     border-radius: 10px;
