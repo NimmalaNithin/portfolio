@@ -2,13 +2,47 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    margin:0;
+}
+
 #logo{
     text-shadow: 2px 2px 5px rgb(177, 177, 177), 2px 2px 5px rgb(177, 177, 177);
     font-weight: bold;
     font-size: 1.8em;
     color: rgb(255, 255, 255);
+    cursor: default;
+    float: left;
+    margin-left: 100px;
+    margin-top:20px;
+}
+.nav-list{
+    margin-left: auto;
+    margin-top:20px;
+}
+.nav-cont button{
+    float:right;
+    margin-top:20px;
+    margin-right: 100px;
+}
+.nav-list li{
+    float: left;
 }
 
+@media(max-width:770px){
+    #logo{
+        margin-left: 50px;
+    }
+    .nav-cont button{
+        margin-right: 30px;
+    }
+    .nav-list{
+        padding-top:100px;
+    }
+    .nav-list li{
+        float: none;
+    }
+}
 
 .crd{
     position: relative;
