@@ -124,7 +124,7 @@ body{
     justify-self: center;
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
     .abt-cont{
         width:320px;
         margin-left: 5%;
