@@ -134,7 +134,7 @@ body{
         "skill";
     }
     .abt{
-        max-width:330px;
+        width:300px;
         margin: auto;
     }
     .skill{
