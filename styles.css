@@ -65,8 +65,8 @@ body{
 }
 @media(max-width:500px){
     .my-pic{
+        margin:15%;
         height: 400px;
-        width:200px;
     }
 }
 
