@@ -55,6 +55,8 @@ body{
 }
 
 .my-pic{
+    margin: 0px;
+    padding: 0px;
     grid-area: img;
     justify-self: center;
     height: 450px;
